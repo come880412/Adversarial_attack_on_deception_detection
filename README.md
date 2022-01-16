@@ -1,4 +1,4 @@
-# Adversarial_attack_on_deception_detection
+# Adversarial_attack_on_deception_detection (Pytorch)
 This repo is for the final project of the course Security and Privacy of Machine Learning (SPML).
 
 # Motivation
@@ -98,6 +98,7 @@ $ python train.py --Sequential_processing GRU --backbone resnet18 --data_path pa
 $ cd ../attacker
 $ python main.py --input_type image --action pretrain_image --backbone resnet18 --data_path path/to/dataset --image_path path/to/dataset/Real_life --csv_path path/to/dataset/Real_life.csv --save_adv_path path/to/dataset/Real_life_adv
 ```
+- If you have any implementation problem, feel free to E-mail me! come880412@gmail.com
 
 # References
 [1] Ian J Goodfellow, Jonathon Shlens, and Christian Szegedy. Explaining and harnessing adversarial examples. arXiv preprint arXiv:1412.6572, 2014. \
